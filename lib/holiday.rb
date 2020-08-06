@@ -25,13 +25,13 @@ end
 
 
 
+
+
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  holyday_hash[:winter].each do |holyday, decorations|
+  holiday_hash[:winter].each do |holiday, decorations|
     decorations << supply
-  end 
+  end
 end
-
-
 
 
 
